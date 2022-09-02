@@ -16,7 +16,7 @@ task5();
 
     public static void task2 () {
         System.out.println( "Задача 2");
-        int clientDeviceYear = 2014;
+        int clientDeviceYear = 2020;
        int clientOS = 0 ;
         if (clientOS == 1 && clientDeviceYear >=2015) {System.out.println( "Установите версию приложения для Android по ссылке");}
         else if (clientOS ==1 && clientDeviceYear < 2015) {
@@ -92,6 +92,7 @@ public static void task5 () {
                 break;
             default:
                 System.out.println( "В году 12 месяцев");
+
 
             }
 
